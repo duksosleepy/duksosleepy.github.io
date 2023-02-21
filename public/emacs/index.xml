@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Some post about Emacs and useful package on Duk Blog</title>
-    <link>duksosleepy.github.io/emacs/</link>
+    <link>/emacs/</link>
     <description>Recent content in Some post about Emacs and useful package on Duk Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="duksosleepy.github.io/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/emacs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
