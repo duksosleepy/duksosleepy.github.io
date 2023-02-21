@@ -80,6 +80,7 @@ theme = "hugo-theme-shell"
     ["Python", "https://www.example.com/"],
     ["Emacs", "https://golang.org/"],
     ["Security", "/post/some-activity.md"],
+    ["Daily Life","/post/some-activity.md"],
   ]
 
 [module]
