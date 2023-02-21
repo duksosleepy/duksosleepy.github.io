@@ -571,48 +571,48 @@ body {
 
 body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}body #dir{color:#D08010}body .Typewriter__cursor{color:#BBBBBB}a{color:#BBBBBB}
 
-        
-.navFull {
-    background-color: #353535;
-    font-family: "Courier New";
-    font-size: 17px;
-    display: inline;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    padding-top: 5px;
-    padding: 10px;
-    padding-bottom: 0px;
-}
+ 
+ .navFull {
+   background-color: #353535;
+   font-family: "Courier New";
+   font-size: 17px;
+   display: inline;
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+   padding-top: 5px;
+   padding: 10px;
+   padding-bottom: 5px;
+ }
 
-.navCredits {
-    float: right;
-    padding-right: 18px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
+ .navCredits {
+   float: right;
+   padding-right: 18px;
+   padding-bottom: 10px;
+   padding-top: 5px;
+ }
 
-#content::after {
-    content: "\a\a";
-    white-space: pre;
-}
-        
-        
+ #content::after {
+   content: "\a\a";
+   white-space: pre;
+ }
+ 
+ 
 </style>
 
 
 
 </head>
 <body><div id="content">
-    
-    
 
-    
-    
 
-    
-    
+
+
+
+
+
+
     
     
     
@@ -752,7 +752,7 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
 
     const ps1Delay = parseDelay("0"),
         stdoutDelay = parseDelay("0"),
-        commandDelay = parseDelay("25");
+        commandDelay = parseDelay("20");
     const typeeffetct = async () => {
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003eduk@shell\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_01", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003ecd mydir\u003c\/span\u003e", "cd", commandDelay);
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003eduk@shell\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/mydir\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_02", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat profile.txt\u003c\/span\u003e", "cat", commandDelay);
@@ -767,9 +767,9 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
 </script>
 
 
-        </div>
-        
-        <span class="navFull">
+      </div>
+      
+      <span class="navFull">
         
     
     
@@ -779,13 +779,9 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
 
 <span>
     <a href="/">Home</a>
-    <span>&#8192;|&#8192;</span>
-    <a href="./..">/</a>
 </span>
 
     
-
-        
 </span>
 
         
