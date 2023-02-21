@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Duk Blog</title>
-    <link>duksosleepy.github.io/</link>
-    <description>Recent content on Duk Blog</description>
+    <title>Some story in my life on Duk Blog</title>
+    <link>duksosleepy.github.io/daily/</link>
+    <description>Recent content in Some story in my life on Duk Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="duksosleepy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="duksosleepy.github.io/daily/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample Post</title>
       <link>duksosleepy.github.io/daily/hello/</link>
