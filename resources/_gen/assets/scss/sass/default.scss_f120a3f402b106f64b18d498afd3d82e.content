@@ -9,7 +9,7 @@ body {
   overflow: auto;
   font-family: "Inconsolata", monospace;
   font-size: 4vmin;
-  line-height: 4.1vmin;
+  line-height: 4.2vmin;
   font-weight: normal; }
 
 body {
@@ -20,8 +20,8 @@ body {
   align-items: center; }
 
 #content {
-  min-width: 82vmin;
-  min-height: 82vmin; }
+  min-width: 80vmin;
+  min-height: 80vmin; }
 
 ::-webkit-scrollbar {
   width: 10px; }
@@ -49,7 +49,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 2.5vmin;
-    line-height: 2.6vmin; }
+    font-size: 3vmin;
+    line-height: 3.6vmin; }
   #content {
     min-width: 60vmin; } }
