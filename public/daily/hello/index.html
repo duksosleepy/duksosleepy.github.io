@@ -605,7 +605,7 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
         contentDelay = parseDelay("0");
     const typeeffetct = async () => {
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eSample Post\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003c\/span\u003e", "activity-content", contentDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cp\u003e1 2 3 4\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
         return;
     }
 
@@ -623,7 +623,9 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
         
 
 <span>
-    <a href="/">Home</a>
+  <a href="/">Home</a>
+  <span>&#8192;|&#8192;</span>
+  <a href="/search/">Search</a>
 </span>
 
     

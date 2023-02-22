@@ -86,3 +86,12 @@ theme = "hugo-theme-shell"
   [module.hugoVersion]
     extended = true
     min = "0.85.0"
+    
+[frontmatter]
+    date = ["date", "publishDate", "lastmod"]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
+    publishDate = ["publishDate", "date"]
+    expiryDate = ["expiryDate"]
+  
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
