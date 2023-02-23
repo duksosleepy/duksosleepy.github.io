@@ -2,6 +2,12 @@
 {{ $title := printf "<h1 id='title'>%s</h1>" .Title}}
 {{ $title := printf "<span id='terminal'>%s</span>" $title}}
 {{ $content := printf "<span id='terminal'>%s</span>" .Content }}
+{{ $date := .Date.UTC.Format "Jan 2, 2006" }}
+{{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+Published {{ $date }}
+{{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+<br/>Updated {{ $lastmod }}
+{{ end }}
 
 
 {{ partial "partials/typeActivity.html" (dict "context" . "title" $title "content" $content "titledelay" $.Site.Params.Terminal.titleDelay "contentdelay" $.Site.Params.Terminal.contentDelay )}}

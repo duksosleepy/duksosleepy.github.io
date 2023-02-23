@@ -2,6 +2,7 @@ title = "Duk Blog"
 languageCode = "en-us"
 paginate = 5
 theme = "hugo-theme-shell"
+enableGitInfo = true
 
 [Params]
 

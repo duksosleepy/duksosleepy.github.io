@@ -13,14 +13,18 @@ body {
 #content {
     min-width: 130vmin;
     max-width: 130vmin;
+
 }
+
 #main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     line-height: normal;
 }
+
+h1{
+    text-align: center;
+}
+
 pre {
     overflow-x: scroll;
     white-space: pre;
